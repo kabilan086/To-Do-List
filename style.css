@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?t=st=1739384659~exp=1739388259~hmac=b045bd112a76434af6711b262ab25958138745dc89c8fb403317b79f4e1307f5&w=1380');
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    background: pink;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+input {
+    width: 70%;
+    padding: 5px;
+}
+
+button {
+    padding: 5px;
+    background: gold;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 60px;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: grey;
+    padding: 8px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+li button {
+    background: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+    
+}
